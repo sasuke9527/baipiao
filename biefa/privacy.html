@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · 先别发 / Privacy Policy · Midnight Drafts</title>
+<style>
+  body{font-family:-apple-system,"PingFang SC","Hiragino Sans",sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.7;color:#222}
+  h1{font-size:26px}h2{font-size:20px;margin-top:36px}hr{margin:48px 0;border:0;border-top:1px solid #ddd}
+  small{color:#666}
+</style>
+</head>
+<body>
+<h1>先别发 · 隐私政策</h1>
+<small>生效日期：2026 年 10 月 2 日</small>
+
+<p><strong>一句话：这个 App 不收集你的任何数据，也看不到你写的任何一个字。</strong>没有账号，没有服务器，没有广告，没有第三方统计。</p>
+
+<h2>你的信存在哪里、怎么加密</h2>
+<p>所有信件、追加的话、心情记录和设置都保存在 App 在你设备上的沙盒目录中，使用设备上随机生成、保存在 iOS 钥匙串（Keychain）里的密钥以 AES-256-GCM 加密。该密钥标记为"仅本设备可用"，不会随 iCloud 备份迁移到其他设备。删除 App 即删除全部内容。</p>
+
+<h2>密码</h2>
+<p>App 独立密码以 PBKDF2 哈希形式保存在钥匙串中，App 不保存明文密码。阅读密码用于派生加密密钥，App 同样不保存；忘记阅读密码的信无法恢复。面容 ID / 触控 ID 由 iOS 系统处理，App 只收到"通过 / 未通过"的结果，并且只信任开启该功能时已录入的生物特征。</p>
+
+<h2>通知</h2>
+<p>信件到期时 App 发送本地通知，通知内容固定为"你有一封信可以拆了"之类的提示，不包含信的任何内容。通知完全在设备上安排，不经过任何服务器。</p>
+
+<h2>分享与寄送</h2>
+<p>"分享几句"和"分享心情对比"生成的图片，以及"寄给一个人"生成的加密文件，都通过 iOS 系统分享面板发送到你自己选择的 App 或联系人。是否发送、发给谁，完全由你决定；我们不会收到任何副本。加密文件只能用你设定的口令解开。</p>
+
+<h2>相册</h2>
+<p>"用照片做印章"会请求读取相册中你选中的一张图片，处理后以小尺寸黑白图样保存在 App 沙盒内，原图不会被复制或上传。保存分享图到相册时会请求相册写入权限。</p>
+
+<h2>我们不做的事</h2>
+<p>不收集设备标识符，不使用广告标识符（IDFA），不接入任何分析或广告 SDK，不出售或共享任何数据，也没有任何方式能读取你的信。</p>
+
+<h2>儿童</h2>
+<p>本 App 不面向 13 岁以下儿童，不会有意收集任何儿童的信息。</p>
+
+<h2>变更与联系</h2>
+<p>政策变更会在本页更新。疑问请发邮件至 <a href="mailto:acct9527@gmail.com">acct9527@gmail.com</a>。</p>
+
+<hr>
+
+<h1>Midnight Drafts · Privacy Policy</h1>
+<small>Effective: 2 October 2026</small>
+
+<p><strong>In one sentence: this app collects none of your data and cannot see a single word you write.</strong> No account, no server, no advertising, no third-party analytics.</p>
+
+<h2>Where your notes live and how they are encrypted</h2>
+<p>All notes, added lines, mood records and settings are stored in the app's sandbox on your device, encrypted with AES-256-GCM using a key that is randomly generated on the device and kept in the iOS Keychain. The key is marked "this device only" and does not migrate to other devices through iCloud backup. Deleting the app deletes everything.</p>
+
+<h2>Passcodes</h2>
+<p>The app passcode is stored in the Keychain as a PBKDF2 hash; the app never stores the passcode itself. Reading passwords are used to derive encryption keys and are likewise never stored; a note whose reading password is forgotten cannot be recovered. Face ID / Touch ID is handled by iOS; the app receives only a pass/fail result and trusts only the biometrics enrolled when the feature was turned on.</p>
+
+<h2>Notifications</h2>
+<p>When a note becomes openable the app posts a local notification with fixed, content-free wording such as "A note is ready to open". Notifications are scheduled on the device and never pass through a server.</p>
+
+<h2>Sharing and sending</h2>
+<p>Images from "Share a few lines" and "Share the mood change", and the encrypted file from "Send to someone", are handed to the iOS share sheet so you can send them to apps or people you choose. Whether and to whom anything is sent is entirely your decision; we never receive a copy. The encrypted file can only be opened with the passphrase you set.</p>
+
+<h2>Photos</h2>
+<p>"Make a seal from a photo" asks to read the one picture you select, converts it into a small monochrome pattern stored in the app sandbox, and never copies or uploads the original. Saving a share image asks for write access to your photo library.</p>
+
+<h2>What we don't do</h2>
+<p>No device identifiers, no advertising identifier (IDFA), no analytics or advertising SDKs, no selling or sharing of data — and no way for us to read your notes.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect information from children.</p>
+
+<h2>Changes and contact</h2>
+<p>Changes will be posted on this page. Questions: <a href="mailto:acct9527@gmail.com">acct9527@gmail.com</a>.</p>
+</body>
+</html>
